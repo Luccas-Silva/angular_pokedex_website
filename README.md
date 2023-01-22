@@ -12,6 +12,8 @@
 ## Tecnologias usadas
 - `HTML`
 - `CSS`
+- `SCSS`
 - `JavaScrip`
+- `Angular`
 
 ## Design do Site
