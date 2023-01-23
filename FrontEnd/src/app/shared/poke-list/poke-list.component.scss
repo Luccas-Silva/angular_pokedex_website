@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+
     padding: 0;
 
     .pokemon{
@@ -12,14 +12,22 @@
         flex-direction: column;
         width: calc(30% - 20px);
         height: rem-calc(400 -20px);
-        background: #D9D9D9;
         padding: rem-calc(20);
         border-radius: rem-calc(30);
+        margin-top: rem-calc(20);
+        
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        
 
         &__status{
             p{
                 font-size: rem-calc(18);
                 margin-bottom: rem-calc(10);
+                color: #D9D9D9
             }
 
             h2{
@@ -27,6 +35,8 @@
                 font-style: italic;
                 font-weight: bold;
                 margin-bottom: rem-calc(10);
+                text-transform: capitalize;
+                color: #D9D9D9;
             }
 
             ul{
@@ -40,6 +50,7 @@
                     align-items: center;
                     border-radius: rem-calc(50);
                     width: rem-calc(100);
+                    height: rem-calc(25);
                     margin-right: rem-calc(10);
                 }
             }
