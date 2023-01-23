@@ -4,7 +4,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
     padding: 0;
 
     .pokemon{
@@ -15,6 +14,8 @@
         padding: rem-calc(20);
         border-radius: rem-calc(30);
         margin-top: rem-calc(20);
+        text-decoration: none;
+        color: #D9D9D9;
         
         /* From https://css.glass */
         background: rgba(255, 255, 255, 0.25);
@@ -27,7 +28,6 @@
             p{
                 font-size: rem-calc(18);
                 margin-bottom: rem-calc(10);
-                color: #D9D9D9
             }
 
             h2{
@@ -36,12 +36,11 @@
                 font-weight: bold;
                 margin-bottom: rem-calc(10);
                 text-transform: capitalize;
-                color: #D9D9D9;
             }
 
             ul{
                 display: flex;
-
+                
                 li{
                     background: var(--secondary-color);
                     font-size: rem-calc(18);
