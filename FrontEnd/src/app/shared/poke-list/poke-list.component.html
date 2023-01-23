@@ -1,24 +1,29 @@
-<ng-template ngFor let-pokemon [ngForOf]="getAllPokemons">
-    <a [routerLink]="['details', pokemon.status.id]" class="pokemon" *ngIf="pokemon.status">
-        <section class="pokemon__image">
-            <img  
-                [src]="pokemon.status.sprites.front_default" 
-                alt="pokemon.name"
-            >
-        </section>
-        
-        <section class="pokemon__status">
-            <p>
-                Nº {{ zero(pokemon.status.id) }}
-            </p>
-            <h2>
-                {{ pokemon.name }}
-            </h2>
-        <ul>
-            <li *ngFor="let value of pokemon.status.types">
-                {{ value.type.name }}
-            </li>
-        </ul>
-        </section>
-    </a>
-</ng-template>
+<poke-search (emmitSearch)=""></poke-search>
+
+<section class="listagem">
+    <ng-template ngFor let-pokemon [ngForOf]="getAllPokemons">
+        <a [routerLink]="['details', pokemon.status.id]" class="pokemon" *ngIf="pokemon.status">
+            <section class="pokemon__image">
+                <img  
+                    [src]="pokemon.status.sprites.front_default" 
+                    alt="pokemon.name"
+                >
+            </section>
+            
+            <section class="pokemon__status">
+                <p>
+                    Nº {{ zero(pokemon.status.id) }}
+                </p>
+                <h2>
+                    {{ pokemon.name }}
+                </h2>
+            <ul>
+                <li *ngFor="let value of pokemon.status.types">
+                    {{ value.type.name }}
+                </li>
+            </ul>
+            </section>
+        </a>
+    </ng-template>
+</section>
+
