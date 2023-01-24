@@ -16,6 +16,9 @@
 - `JavaScrip`
 - `Angular`
 
+## Servidor de Desenvolvimento
+Execute `ng serve` para um servidor dev. Navegue até `http://localhost:4200/`. O aplicativo será recarregado automaticament.
+
 ## Design do Site
 ![Pokédex](https://user-images.githubusercontent.com/89430801/214362635-f766cdc0-f1bd-45eb-a7f4-986ac4e6f57e.svg)
 ![Pokédex 2](https://user-images.githubusercontent.com/89430801/214362646-552e55b8-3e80-4063-9927-92ae63907de3.svg)
