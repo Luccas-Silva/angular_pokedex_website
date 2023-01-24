@@ -9,6 +9,7 @@ import { PokeApiService } from 'src/app/service/poke-api.service'
 })
 export class PokeListComponent implements OnInit {
   
+  public apiError: boolean = false;
   public getAllPokemons: any;
   private setAllPokemons: any;
 
@@ -22,6 +23,9 @@ export class PokeListComponent implements OnInit {
           this.setAllPokemons = res.results;
           this.getAllPokemons = this.setAllPokemons;
           console.log(this.getAllPokemons);
+        },
+        error => {
+          this.apiError = true;
         }
       );
   }

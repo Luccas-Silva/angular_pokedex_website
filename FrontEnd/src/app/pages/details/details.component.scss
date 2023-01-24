@@ -31,13 +31,6 @@
                 font-weight: bold;
                 font-style: italic;
 			}
-
-			h1,
-			h2 {
-				//Remove Bug Animation
-				-webkit-animation-fill-mode: none !important;
-				animation-fill-mode: none !important;
-			}
 		}
 
 		.pokemon__status {
@@ -45,14 +38,9 @@
 
 			img {
 				position: absolute;
-				top: rem-calc(-90);
-				left: rem-calc(30);
+				top: rem-calc(-110);
+				left: rem-calc(20);
 				width: rem-calc(200);
-				z-index: 10;
-
-				//Remove Bug Animation
-				-webkit-animation-fill-mode: none !important;
-				animation-fill-mode: none !important;
 			}
 
 			&__statistics {
