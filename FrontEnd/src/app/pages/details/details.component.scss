@@ -9,9 +9,7 @@
 			display: flex;
 			align-items: flex-end;
 			justify-content: flex-end;
-
 			height: 75px;
-
 			padding: 0 rem-calc(30);
 
 			h1 {
@@ -31,6 +29,14 @@
                 font-weight: bold;
                 font-style: italic;
 			}
+
+			h1,
+			h2 {
+				//Remove Bug Animation
+				-webkit-animation-fill-mode: none !important;
+				animation-fill-mode: none !important;
+			}
+			
 		}
 
 		.pokemon__status {
@@ -41,18 +47,19 @@
 				top: rem-calc(-110);
 				left: rem-calc(20);
 				width: rem-calc(200);
+				
+				//Remove Bug Animation
+				-webkit-animation-fill-mode: none !important;
+				animation-fill-mode: none !important;
 			}
 
 			&__statistics {
 				display: flex;
 				flex-direction: column;
 				justify-content: space-between;
-
 				background: var(--branco);
-
 				min-height: 43.9vh;
 				margin-top: rem-calc(10);
-
 				padding: rem-calc(110) rem-calc(35) rem-calc(30);
 				border-radius: rem-calc(50);
 
