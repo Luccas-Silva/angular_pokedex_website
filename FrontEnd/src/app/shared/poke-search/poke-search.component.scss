@@ -14,10 +14,10 @@
             background: none;
             border: none;
             font-size: 20pt;
-            color: #ffffff;
+            color: var(--branco);
 
             &::placeholder{
-                color: #ffffff; 
+                color: var(--branco); 
             }
         }
     }
