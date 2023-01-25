@@ -6,9 +6,9 @@
     <img align="center" alt="angularjs" height="50" width="60" src="https://github.com/devicons/devicon/blob/master/icons/angularjs/angularjs-original.svg"/>
   </h1>
 </div>
-
-### Ideia do Projeto
--
+ 
+### Ideia do Projeto 
+- Este projeto tem a finalidade de criar uma lista de pokemons, e um card de informações para cada pokemon, ambos usando a api `https://pokeapi.co/`.
 
 ## Tecnologias usadas
 - `HTML`
