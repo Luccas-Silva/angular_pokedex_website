@@ -21,8 +21,9 @@
 Execute `ng serve` para um servidor dev. Navegue até `http://localhost:4200/`. O aplicativo será recarregado automaticament.
 
 ## Design do Site
-![Pokédex](https://user-images.githubusercontent.com/89430801/214362635-f766cdc0-f1bd-45eb-a7f4-986ac4e6f57e.svg)
-![Pokédex 2](https://user-images.githubusercontent.com/89430801/214362646-552e55b8-3e80-4063-9927-92ae63907de3.svg)
-![Pokédex 3](https://user-images.githubusercontent.com/89430801/214362653-3f55cedd-db58-4a35-8c15-77a45aeee7a8.svg)
-![Pokédex 4](https://user-images.githubusercontent.com/89430801/214363275-a1bd4bb9-0f3a-4d6a-a50d-42231caf9c61.svg)
 
+![Pokédex 1](https://user-images.githubusercontent.com/89430801/216485274-d72c44eb-4f5c-423e-93c3-f2c149788fbb.svg)
+![Pokédex 2](https://user-images.githubusercontent.com/89430801/216486497-ffa96593-7386-4cdb-98ba-f0bbcc0a3ba2.svg)
+![Pokédex 3](https://user-images.githubusercontent.com/89430801/216485284-ddee1296-d079-4031-9fa9-3adde375a6ae.svg)
+![Pokédex 4](https://user-images.githubusercontent.com/89430801/214362653-3f55cedd-db58-4a35-8c15-77a45aeee7a8.svg)
+![Pokédex 5](https://user-images.githubusercontent.com/89430801/216485292-419bb69a-a9db-4f63-8052-50f02b8237c8.svg)
