@@ -10,6 +10,9 @@
 ### Ideia do Projeto 
 - Este projeto tem a finalidade de criar uma lista de pokemons, e um card de informações para cada pokemon, ambos usando a api `https://pokeapi.co/`.
 
+### Site:
+- https://luccas-pokedex.netlify.app/
+
 ## Tecnologias usadas
 - `HTML`
 - `CSS`
