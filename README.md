@@ -14,7 +14,7 @@
 - `HTML`
 - `CSS`
 - `SCSS`
-- `JavaScrip`
+- `TypeScript`
 - `Angular`
 
 ## Servidor de Desenvolvimento
