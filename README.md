@@ -8,11 +8,10 @@
 </div>
  
 ### Ideia do Projeto 
-- Este projeto tem a finalidade de criar uma lista de pokemons, e um card de informações para cada pokemon, ambos usando a api `https://pokeapi.co/`.
+- O objetivo deste projeto é desenvolver uma plataforma que apresente uma lista abrangente de Pokémon, junto com cartões informativos para cada espécie. Para alcançar esse propósito, será utilizada a API `https://pokeapi.co/`.
 
 ## Tecnologias usadas
 - `HTML`
-- `CSS`
 - `SCSS`
 - `TypeScript`
 - `Angular`
@@ -22,8 +21,9 @@ Execute `ng serve` para um servidor dev. Navegue até `http://localhost:4200/`. 
 
 ## Design do Site
 
+![Pokédex 5](https://user-images.githubusercontent.com/89430801/216485292-419bb69a-a9db-4f63-8052-50f02b8237c8.svg)
 ![Pokédex 1](https://user-images.githubusercontent.com/89430801/216485274-d72c44eb-4f5c-423e-93c3-f2c149788fbb.svg)
 ![Pokédex 2](https://user-images.githubusercontent.com/89430801/216486497-ffa96593-7386-4cdb-98ba-f0bbcc0a3ba2.svg)
 ![Pokédex 3](https://user-images.githubusercontent.com/89430801/216485284-ddee1296-d079-4031-9fa9-3adde375a6ae.svg)
 ![Pokédex 4](https://user-images.githubusercontent.com/89430801/214362653-3f55cedd-db58-4a35-8c15-77a45aeee7a8.svg)
-![Pokédex 5](https://user-images.githubusercontent.com/89430801/216485292-419bb69a-a9db-4f63-8052-50f02b8237c8.svg)
+
